@@ -14,8 +14,8 @@ module.exports = {
       },
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
-        quicksand: ['Raleway', 'sans-serif']
-      }
+        raleway: ['Raleway', 'sans-serif'],
+      },
     },
   },
   plugins: [require('tailwindcss-animated')],

@@ -1,7 +1,12 @@
+//Components
+import About from '@/components/About';
+
 const Home = () => {
   return (
     <div>
-      <main className="bg-red-100 w-full h-screen">Home</main>
+      <main className='w-full h-screen'>
+        <About />
+      </main>
     </div>
   );
 };
